@@ -1,0 +1,41 @@
+
+head {
+
+  display: none;
+
+}
+
+body  {
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.header {
+  background: red;
+  color: white;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content:  space-between;
+}
+
+.header-logo {
+  float: left;
+  font-weight: 700;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.header-list {
+  float:right;
+  display: flex;
+
+}
+
+/* .header-list > li {
+
+  border-left: 1px solid #ccc;
+
+} */ */
